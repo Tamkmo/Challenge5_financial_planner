@@ -28,6 +28,7 @@ The analysis is divided into following sections
 
 Emergency Fund Evaluation
 Evaluate the possibility of creating an emergency fund with 3 conditions:
+
 if total_portfolio > emergency_fund_value:
     print(f"Congratulations you have enough money to supplement emergency funds")
 
@@ -39,7 +40,9 @@ else:
 
 
 Retirement Fund Returns in 30 yrs and 10 yrs
+
 Configure the Monte Carlo simulation to forecast 30 years cumulative returns
+
 The weights should be split 40% to AGG and 60% to SPY.
 Run 500 samples.
 thirty_year_simulation = MCSimulation(
